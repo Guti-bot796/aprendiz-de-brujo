@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VALIVIUM - Servicios Médicos y Jurídicos</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="navbar">
+<div class="logo">
+<img src="img/logo.png" alt="Logo Valivium" class="logo-img">
+<span>VALIVIUM</span>
+</div>
+<ul class="nav-links">
+<li><a href="#inicio">Inicio</a></li>
+<li><a href="#medicos">Servicios Médicos</a></li>
+<li><a href="#juridicos">Servicios Jurídicos</a></li>
+<li><a href="#contacto">Contacto</a></li>
+</ul>
+<a href="#contacto" class="btn-agendar">Agendar Cita</a>
+</nav>
+
+<header id="inicio" class="hero">
+<div class="hero-content">
+<h1>DEFENSA LEGAL Y RESPALDO MÉDICO DE ALTO NIVEL</h1>
+<p>Soluciones integrales con enfoque técnico-científico y estricto cumplimiento normativo.</p>
+<div class="hero-buttons">
+<a href="#medicos" class="cta-primary">Asesoría Médica</a>
+<a href="#juridicos" class="cta-secondary">Asesoría Jurídica</a>
+</div>
+</div>
+</header>
+
+<section class="trust-bar">
+<div class="trust-item">
+<h3>+10 Años</h3>
+<p>De experiencia comprobada</p>
+</div>
+<div class="trust-item">
+<h3>Atención</h3>
+<p>100% Personalizada</p>
+</div>
+<div class="trust-item">
+<h3>Enfoque</h3>
+<p>Técnico y Científico</p>
+</div>
+<div class="trust-item">
+<h3>Cumplimiento</h3>
+<p>Normativo y Legal</p>
+</div>
+</section>
+
+<main>
+<section id="medicos" class="services-section">
+<div class="section-header">
+<h2>SERVICIOS MÉDICOS ESPECIALIZADOS</h2>
+<p>Respaldamos su salud e integridad con diagnósticos precisos y certificaciones avaladas por profesionales expertos.</p>
+</div>
+<img src="img/medicina.jpg" alt="Especialistas Médicos" class="section-banner">
+
+<div class="service-grid">
+<article class="service-card">
+<h3>Certificado de Defunción</h3>
+<p>se realiza valoración medica post morten se exopide documento oficial de defunción.</p>
+<a href="#contacto" class="btn-outline">Solicitar Valoración</a>
+</article>
+<article class="service-card">
+<h3>Incapacidades Médicas</h3>
+<p>Gestión, auditoría y validación de periodos de incapacidad prolongada ante empleadores y entidades de salud.</p>
+<a href="#contacto" class="btn-outline">Solicitar Valoración</a>
+</article>
+<article class="service-card">
+<h3>Conceptos Técnicos</h3>
+<p>Emisión de dictámenes periciales y conceptos técnico-científicos sólidos para respaldar procesos legales o administrativos.</p>
+<a href="#contacto" class="btn-outline">Solicitar Valoración</a>
+</article>
+<article class="service-card">
+<h3>Recobro ante EPS</h3>
+<p>Acompañamiento integral en el proceso de solicitud, radicación y cobro de prestaciones económicas ante las Entidades Promotoras de Salud.</p>
+<a href="#contacto" class="btn-outline">Solicitar Valoración</a>
+</article>
+</div>
+</section>
+
+<section id="juridicos" class="services-section bg-alt">
+<div class="section-header">
+<h2>ASESORÍA JURÍDICA ESPECIALIZADA</h2>
+<p>Defensa técnica y representación legal enfocada en proteger su carrera, su salud y sus derechos fundamentales.</p>
+</div>
+<img src="img/juridico.jpg" alt="Asesoría Jurídica" class="section-banner">
+
+<div class="service-grid">
+<article class="service-card">
+<h3>Defensa Concurso de Méritos</h3>
+<p>Asesoría legal y representación en etapas de reclamación, exclusión o irregularidades durante convocatorias públicas.</p>
+<a href="#contacto" class="btn-outline">Solicitar Asesoría</a>
+</article>
+<article class="service-card">
+<h3>Carrera Administrativa</h3>
+<p>Protección de los derechos de carrera, fuero sindical, estabilidad laboral reforzada y procesos de evaluación de desempeño.</p>
+<a href="#contacto" class="btn-outline">Solicitar Asesoría</a>
+</article>
+<article class="service-card">
+<h3>Fallas en Salud</h3>
+<p>Representación de víctimas en casos de negligencia, responsabilidad médica o fallas en la prestación de servicios hospitalarios.</p>
+<a href="#contacto" class="btn-outline">Solicitar Asesoría</a>
+</article>
+<article class="service-card">
+<h3>Procesos Disciplinarios</h3>
+<p>Defensa técnica integral de funcionarios y profesionales ante entidades de control y tribunales éticos.</p>
+<a href="#contacto" class="btn-outline">Solicitar Asesoría</a>
+</article>
+</div>
+</section>
+
+<section id="contacto" class="contact-section">
+<div class="contact-container">
+<h2>AGENDAR CITA</h2>
+<p>Complete el formulario y uno de nuestros especialistas analizará su caso de manera confidencial.</p>
+<form id="appointment-form" class="corporate-form">
+<div class="form-group">
+<input type="text" id="nombre" placeholder="Nombre completo" required>
+</div>
+<div class="form-group">
+<input type="text" id="documento" placeholder="Número de documento" required>
+</div>
+<div class="form-group">
+<input type="tel" id="telefono" placeholder="Teléfono" required>
+</div>
+<div class="form-group">
+<input type="email" id="correo" placeholder="Correo electrónico" required>
+</div>
+<div class="form-group">
+<select id="tipo-servicio" required>
+<option value="" disabled selected>Seleccione el tipo de servicio...</option>
+<option value="medico">Servicio Médico</option>
+<option value="juridico">Servicio Jurídico</option>
+<option value="ambos">Atención Integral (Médico y Jurídico)</option>
+</select>
+</div>
+<div class="form-group">
+<textarea id="mensaje" rows="4" placeholder="Descripción breve de su caso" required></textarea>
+</div>
+<button type="submit" class="btn-submit">Enviar Solicitud</button>
+</form>
+</div>
+</section>
+</main>
+
+<footer>
+<div class="footer-content">
+<div class="footer-info">
+<img src="img/logo.png" alt="Logo Valivium Footer" class="logo-footer">
+<p><strong>VALIVIUM</strong><br>Servicios Médicos y Jurídicos</p>
+</div>
+<div class="footer-contact">
+<p><strong>WhatsApp:</strong> 318 374 2965</p>
+<p><strong>Correo:</strong> feguca56@gmail.com</p>
+<p><strong>Dirección:</strong> Sede Principal</p>
+</div>
+</div>
+<div class="legal">
+<div>© 2026 VALIVIUM. Todos los derechos reservados.</div>
+<div class="legal-links">
+<a href="politica-privacidad.html">Política de Privacidad</a> | 
+<a href="terminos-condiciones.html">Aviso Legal y Términos</a>
+</div>
+</div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
